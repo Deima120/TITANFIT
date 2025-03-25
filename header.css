@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    gap: 65px;
+    list-style: none;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 35%;
+    background-color: bisque;
+    border-bottom-right-radius:15% 220px;
+    margin-right: 5px;
+    color: white;
+    background-image: url(imagenes/titanfit_1.jpg);
+    background-position-x: center;
+    background-size: contain;
+}
+
+.move {
+    padding-top: 2%;
+    display: flex;
+    margin-left: 5%;
+    gap: 65px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.move a {
+    text-decoration: none;
+    color: white;
+}
+
+.move a:hover { 
+    color: rgb(255, 197, 6);
+}
+
+
+
+.move_one {
+    display: flex;
+    margin-left: 35%;
+    padding-top: 2.3%;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgba(255, 166, 0, 0.811);
+    border-radius: 20px;
+    border-style: none;
+
+}
+
+.btn:active {
+    background-color: rgba(115, 110, 110, 0.408);
+}
+
+.btn:hover {
+    background-color: rgba(246, 250, 250, 0.649);
+}
+
+.logo {
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+    background-color: #000;
+    color: #000000;
+    text-align: center;
+    padding: 100%;
+}
+
+
+
