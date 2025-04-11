@@ -1,0 +1,225 @@
+:root {
+    --amarillo: rgba(255, 197, 6);
+    --negro: #000;
+    --naranja: rgba(255, 166, 0, 0.989);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    background-image: url(imagenes/titanfit_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 15% 220px;
+    padding: 20px;
+    color: white;
+}
+
+.move {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.move ul {
+    display: flex;
+    list-style: none;
+    gap: 65px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.move a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.move a:hover {
+    color: var(--amarillo);
+}
+
+.move_one ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.btn_naranja {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: var(--amarillo);
+    color: #000;
+    text-decoration: none;
+}
+
+.btn_naranja:hover {
+    background-color: #3b3b3b;
+    transition: color 0.5s ease;
+    color: white;
+}
+
+.logo {
+    border-radius: 5%;
+}
+
+/* HERO / PRODUCTOS */
+.hero {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.container_2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--naranja);
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #000;
+}
+
+.card .compra {
+    background-color: var(--negro);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card .compra:hover {
+    transform: scale(1.05);
+}
+
+/* MISIÓN Y VISIÓN */
+#mision-vision {
+    background: linear-gradient(135deg, #1e1e1e, #3b3b3b);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contenedor_vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.caja_vision {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.caja_vision:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--amarillo);
+}
+
+.caja_vision h2 {
+    font-size: 24px;
+    color: var(--amarillo);
+    margin-bottom: 15px;
+}
+
+.caja_vision p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social_one {
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  /* Colores al pasar el mouse o hacer clic */
+  .social.facebook:hover,
+  .social.facebook:active {
+    color: #1877f2; /* Azul Facebook */
+  }
+  
+  .social.twitter:hover,
+  .social.twitter:active {
+    color: #1da1f2; /* Azul claro Twitter */
+  }
+  
+  .social.instagram:hover,
+  .social.instagram:active {
+    color: #e1306c; /* Rosa Instagram */
+  }
+  
+
+.footer-bottom {
+    margin-top: 10px;
+}
